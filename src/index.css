@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    @apply h-screen;
+    height: calc(100vh - 36px);
+}
